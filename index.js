@@ -224,7 +224,7 @@ loader.load('asset/cleanedScan/newscan.gltf', function (gltf) {
 
 //load exhibition
 const loader1 = new GLTFLoader();
-loader1.load('asset/exhibition/updatedmoss/updatedmoss710.gltf', function (gltf) {
+loader1.load('asset/updatedmoss/updatedmoss710.gltf', function (gltf) {
     exhibitModel=gltf.scene;
     scene.add(gltf.scene);
     gltf.scene.scale.set(24, 24, 24);
